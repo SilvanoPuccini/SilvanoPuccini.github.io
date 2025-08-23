@@ -58,7 +58,7 @@ const translations = {
     
     // Footer
     'footer.copyright': 'All rights reserved.',
-    'footer.builtWith': 'Built with ❤️ using React & TypeScript',
+    'footer.builtWith': 'Built with using React & TypeScript',
     
     // About highlights
     'about.highlights.experience': 'Professional Experience',
@@ -115,7 +115,7 @@ const translations = {
     
     // Footer
     'footer.copyright': 'Todos los derechos reservados.',
-    'footer.builtWith': 'Construido con ❤️ usando React & TypeScript',
+    'footer.builtWith': 'Construido con  usando React & TypeScript',
     
     // About highlights
     'about.highlights.experience': 'Experiencia Profesional',
