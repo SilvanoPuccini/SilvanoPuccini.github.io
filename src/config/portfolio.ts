@@ -41,13 +41,13 @@ const content = {
     },
     projects: [
       {
-        title: "Facturia 2.0",
+        title: "FacturIA 2.0",
         description:
           "Invoice management system with automated billing, client tracking, and financial reports. Built with modern web technologies focusing on user experience and business efficiency.",
         image: "/projects/facturia.jpg",
         technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
-        github: "https://github.com/SilvanoPuccini/facturia-2.0",
-        demo: "https://facturia-demo.vercel.app",
+        github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
+        demo: "#",
       },
       {
         title: "More Projects Coming Soon",
@@ -164,13 +164,13 @@ const content = {
     },
     projects: [
       {
-        title: "Facturia 2.0",
+        title: "FacturIA 2.0",
         description:
           "Sistema de gestión de facturas con facturación automatizada, seguimiento de clientes e informes financieros. Construido con tecnologías web modernas enfocado en la experiencia de usuario y eficiencia del negocio.",
         image: "/projects/facturia.jpg",
         technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
-        github: "https://github.com/SilvanoPuccini/facturia-2.0",
-        demo: "https://facturia-demo.vercel.app",
+        github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
+        demo: "#",
       },
       {
         title: "Más Proyectos Próximamente",
@@ -302,13 +302,13 @@ export const portfolioConfig: PortfolioConfig = {
 
   projects: [
     {
-      title: "Facturia 2.0",
+      title: "FacturIA 2.0",
       description:
         "Invoice management system with automated billing, client tracking, and financial reports. Built with modern web technologies focusing on user experience and business efficiency.",
       image: "/projects/facturia.jpg",
       technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
-      github: "https://github.com/SilvanoPuccini/facturia-2.0",
-      demo: "https://facturia-demo.vercel.app",
+      github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
+      demo: "#",
     },
     {
       title: "More Projects Coming Soon",
