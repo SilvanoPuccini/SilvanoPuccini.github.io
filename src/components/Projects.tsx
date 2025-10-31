@@ -57,10 +57,10 @@ export function Projects() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-3">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex-1 group-hover:border-primary/40 transition-colors duration-200"
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className={`${project.demo === '#' ? 'w-full' : 'flex-1'} group-hover:border-primary/40 transition-colors duration-200`}
                       asChild
                     >
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -68,16 +68,18 @@ export function Projects() {
                         {t('projects.viewCode')}
                       </a>
                     </Button>
-                    <Button 
-                      size="sm" 
-                      className="flex-1 bg-gradient-accent hover:opacity-90"
-                      asChild
-                    >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        {t('projects.liveDemo')}
-                      </a>
-                    </Button>
+                    {project.demo !== '#' && (
+                      <Button
+                        size="sm"
+                        className="flex-1 bg-gradient-accent hover:opacity-90"
+                        asChild
+                      >
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          {t('projects.liveDemo')}
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
