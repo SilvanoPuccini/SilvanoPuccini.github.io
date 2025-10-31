@@ -53,7 +53,7 @@ const content = {
         title: "More Projects Coming Soon",
         description:
           "Currently working on new Full Stack projects as part of my training. This portfolio will be updated with professional applications that showcase modern development practices and real business solutions.",
-        image: "/projects/placeholder.jpg",
+        image: "/projects/placeholder.webp",
         technologies: ["React", "Python", "Django", "JavaScript", "SQL"],
         github: "https://github.com/SilvanoPuccini",
         demo: "#",
@@ -176,7 +176,7 @@ const content = {
         title: "Más Proyectos Próximamente",
         description:
           "Actualmente trabajando en nuevos proyectos Full Stack como parte de mi formación. Este portfolio será actualizado con aplicaciones profesionales que demuestren prácticas de desarrollo modernas y soluciones de negocio reales.",
-        image: "/projects/placeholder.jpg",
+        image: "/projects/placeholder.webp",
         technologies: ["React", "Python", "Django", "JavaScript", "SQL"],
         github: "https://github.com/SilvanoPuccini",
         demo: "#",
