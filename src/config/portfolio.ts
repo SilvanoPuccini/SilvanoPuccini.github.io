@@ -45,7 +45,7 @@ const content = {
         description:
           "Invoice management system with automated billing, client tracking, and financial reports. Built with modern web technologies focusing on user experience and business efficiency.",
         image: "/projects/facturia.png",
-        technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
+        technologies: ["Python", "Gemini Vision API", "Gmail API", "SQLite", "Streamlit", "Plotly"],
         github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
         demo: "#",
       },
@@ -168,7 +168,7 @@ const content = {
         description:
           "Sistema de gestión de facturas con facturación automatizada, seguimiento de clientes e informes financieros. Construido con tecnologías web modernas enfocado en la experiencia de usuario y eficiencia del negocio.",
         image: "/projects/facturia.png",
-        technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
+        technologies: ["Python", "Gemini Vision API", "Gmail API", "SQLite", "Streamlit", "Plotly"],
         github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
         demo: "#",
       },
@@ -305,8 +305,8 @@ export const portfolioConfig: PortfolioConfig = {
       title: "FacturIA 2.0",
       description:
         "Invoice management system with automated billing, client tracking, and financial reports. Built with modern web technologies focusing on user experience and business efficiency.",
-      image: "/projects/facturia.jpg",
-      technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
+      image: "/projects/facturia.png",
+      technologies: ["Python", "Gemini Vision API", "Gmail API", "SQLite", "Streamlit", "Plotly"],
       github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
       demo: "#",
     },
@@ -314,7 +314,7 @@ export const portfolioConfig: PortfolioConfig = {
       title: "More Projects Coming Soon",
       description:
         "Currently working on new Full Stack projects as part of my training. This portfolio will be updated with professional applications that showcase modern development practices and real business solutions.",
-      image: "/projects/placeholder.jpg",
+      image: "/projects/placeholder.webp",
       technologies: ["React", "Python", "Django", "JavaScript", "SQL"],
       github: "https://github.com/SilvanoPuccini",
       demo: "#",
