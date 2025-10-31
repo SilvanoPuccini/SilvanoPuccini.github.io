@@ -8,7 +8,7 @@ const content = {
       title: "Full Stack Developer in Training",
       subtitle: "Transforming business experience into digital solutions",
       greeting: "Hello, I'm",
-      profilePhoto: "/perfil4x4.jpg",
+      profilePhoto: "/perfil4x4diseño.png",
       cvUrl: "/cv-silvano-puccini.pdf",
     },
     about: {
@@ -44,7 +44,7 @@ const content = {
         title: "FacturIA 2.0",
         description:
           "Invoice management system with automated billing, client tracking, and financial reports. Built with modern web technologies focusing on user experience and business efficiency.",
-        image: "/projects/facturia.jpg",
+        image: "/projects/facturia.png",
         technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
         github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
         demo: "#",
@@ -131,7 +131,7 @@ const content = {
       title: "Desarrollador Full Stack en Formación",
       subtitle: "Transformando experiencia comercial en soluciones digitales",
       greeting: "Hola, soy",
-      profilePhoto: "/perfil4x4.jpg",
+      profilePhoto: "/perfil4x4diseño.png",
       cvUrl: "/cv-silvano-puccini.pdf",
     },
     about: {
@@ -167,7 +167,7 @@ const content = {
         title: "FacturIA 2.0",
         description:
           "Sistema de gestión de facturas con facturación automatizada, seguimiento de clientes e informes financieros. Construido con tecnologías web modernas enfocado en la experiencia de usuario y eficiencia del negocio.",
-        image: "/projects/facturia.jpg",
+        image: "/projects/facturia.png",
         technologies: ["React", "TypeScript", "Python", "Django", "SQL"],
         github: "https://github.com/SilvanoPuccini/FacturIA-2.0",
         demo: "#",
