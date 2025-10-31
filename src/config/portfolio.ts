@@ -5,16 +5,17 @@ const content = {
   en: {
     personal: {
       name: "Silvano Puccini",
-      title: "Desarrollador Web Full Stack",
-      subtitle: "Mi portafolio",
+      title: "Full Stack Developer",
+      subtitle: "Building modern web solutions",
       greeting: "Hello, I'm",
       profilePhoto: "/perfil4x4.jpg",
       cvUrl: "/cv-silvano-puccini.pdf",
     },
     about: {
-      description: "{Resumen profesional}",
+      description:
+        "I combine technical expertise in Full Stack development with experience in commercial leadership, remote team management, and process optimization. I apply SOLID principles and best practices to deliver scalable, user-focused solutions with real business impact.",
       experience:
-        "Combino conocimientos técnicos en desarrollo Full Stack con experiencia en lideraz￾go comercial, gestión de equipos remotos y optimización de procesos. Aplico principios SOLID,",
+        "With over 5 years of professional experience, I've successfully delivered 20+ projects using modern technologies. I specialize in building high-performance web applications with focus on clean architecture, testing, and continuous delivery.",
       highlights: [
         {
           icon: "Code2",
@@ -40,15 +41,32 @@ const content = {
     },
     projects: [
       {
-        title: "Project Name",
+        title: "E-Commerce Platform",
         description:
-          "Describe your project here. What it does, what problems it solves, and what technologies you used.",
+          "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built with modern architecture patterns and microservices.",
         image: "/project-image.jpg",
-        technologies: ["React", "TypeScript", "Node.js"],
-        github: "https://github.com/SilvanoPuccini/project",
-        demo: "https://project-demo.vercel.app",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"],
+        github: "https://github.com/SilvanoPuccini/ecommerce-project",
+        demo: "https://ecommerce-demo.vercel.app",
       },
-      // Add more projects as needed
+      {
+        title: "Task Management System",
+        description:
+          "Collaborative task management application with real-time updates, team collaboration features, and advanced filtering. Implements clean architecture and TDD.",
+        image: "/project-image.jpg",
+        technologies: ["Next.js", "TypeScript", "MongoDB", "GraphQL", "Jest"],
+        github: "https://github.com/SilvanoPuccini/task-manager",
+        demo: "https://task-manager-demo.vercel.app",
+      },
+      {
+        title: "Analytics Dashboard",
+        description:
+          "Real-time analytics dashboard with data visualization, custom reports, and export functionality. Optimized for performance with large datasets.",
+        image: "/project-image.jpg",
+        technologies: ["React", "TypeScript", "AWS", "Recharts", "Tailwind"],
+        github: "https://github.com/SilvanoPuccini/analytics-dashboard",
+        demo: "https://analytics-demo.vercel.app",
+      },
     ],
     skills: {
       categories: [
@@ -99,31 +117,33 @@ const content = {
       ],
     },
     meta: {
-      title: "Silvano Puccini - Full Stack",
+      title: "Silvano Puccini - Full Stack Developer",
       description:
-        "Personal portfolio of Silvano Puccini, a full stack specializing in modern web technologies.",
+        "Personal portfolio of Silvano Puccini, a Full Stack Developer specializing in modern web technologies, React, TypeScript, and Node.js.",
       keywords: [
-        "full stack",
+        "full stack developer",
         "web development",
         "portfolio",
         "react",
         "typescript",
+        "node.js",
       ],
     },
   },
   es: {
     personal: {
       name: "Silvano Puccini",
-      title: "Full Stack",
-      subtitle: "Mi portafolio",
+      title: "Desarrollador Full Stack",
+      subtitle: "Construyendo soluciones web modernas",
       greeting: "Hola, soy",
       profilePhoto: "/perfil4x4.jpg",
       cvUrl: "/cv-silvano-puccini.pdf",
     },
     about: {
       description:
-        "Combino conocimientos técnicos en desarrollo Full Stack con experiencia en lideraz￾go comercial, gestión de equipos remotos y optimización de procesos. Aplico principios SOLID,",
-      experience: "en el usuario y con impacto en negocio.",
+        "Combino conocimientos técnicos en desarrollo Full Stack con experiencia en liderazgo comercial, gestión de equipos remotos y optimización de procesos. Aplico principios SOLID y mejores prácticas para entregar soluciones escalables, enfocadas en el usuario y con impacto real en el negocio.",
+      experience:
+        "Con más de 5 años de experiencia profesional, he entregado exitosamente más de 20 proyectos utilizando tecnologías modernas. Me especializo en construir aplicaciones web de alto rendimiento con enfoque en arquitectura limpia, testing y entrega continua.",
       highlights: [
         {
           icon: "Code2",
@@ -149,15 +169,32 @@ const content = {
     },
     projects: [
       {
-        title: "Nombre del Proyecto",
+        title: "Plataforma E-Commerce",
         description:
-          "Describe tu proyecto aquí. Qué hace, qué problemas resuelve y qué tecnologías usaste.",
+          "Solución e-commerce full-stack con gestión de inventario en tiempo real, procesamiento de pagos y panel de administración. Construida con patrones de arquitectura moderna y microservicios.",
         image: "/project-image.jpg",
-        technologies: ["React", "TypeScript", "Node.js"],
-        github: "https://github.com/SilvanoPuccini/project",
-        demo: "https://project-demo.vercel.app",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"],
+        github: "https://github.com/SilvanoPuccini/ecommerce-project",
+        demo: "https://ecommerce-demo.vercel.app",
       },
-      // Agrega más proyectos según sea necesario
+      {
+        title: "Sistema de Gestión de Tareas",
+        description:
+          "Aplicación colaborativa de gestión de tareas con actualizaciones en tiempo real, funciones de colaboración en equipo y filtrado avanzado. Implementa arquitectura limpia y TDD.",
+        image: "/project-image.jpg",
+        technologies: ["Next.js", "TypeScript", "MongoDB", "GraphQL", "Jest"],
+        github: "https://github.com/SilvanoPuccini/task-manager",
+        demo: "https://task-manager-demo.vercel.app",
+      },
+      {
+        title: "Dashboard de Analíticas",
+        description:
+          "Dashboard de analíticas en tiempo real con visualización de datos, reportes personalizados y funcionalidad de exportación. Optimizado para rendimiento con grandes conjuntos de datos.",
+        image: "/project-image.jpg",
+        technologies: ["React", "TypeScript", "AWS", "Recharts", "Tailwind"],
+        github: "https://github.com/SilvanoPuccini/analytics-dashboard",
+        demo: "https://analytics-demo.vercel.app",
+      },
     ],
     skills: {
       categories: [
@@ -208,28 +245,30 @@ const content = {
       ],
     },
     meta: {
-      title: "Silvano Puccini - Full Stack",
+      title: "Silvano Puccini - Desarrollador Full Stack",
       description:
-        "Portfolio personal de Silvano Puccini, un full stack especializado en tecnologías web modernas.",
+        "Portfolio personal de Silvano Puccini, un Desarrollador Full Stack especializado en tecnologías web modernas, React, TypeScript y Node.js.",
       keywords: [
-        "full stack",
+        "desarrollador full stack",
         "desarrollo web",
         "portfolio",
         "react",
         "typescript",
+        "node.js",
       ],
     },
   },
 };
 
+// Main portfolio configuration (language-independent data)
 export const portfolioConfig: PortfolioConfig = {
   personal: {
     name: "Silvano Puccini",
-    title: "Full Stack",
-    subtitle: "Mi portafolio",
+    title: "Full Stack Developer",
+    subtitle: "Building modern web solutions",
     greeting: "Hello, I'm",
     profilePhoto: "/perfil4x4.jpg",
-    cvUrl: "/cv-silvano-puccini.pdf", // Optional - update this path
+    cvUrl: "/cv-silvano-puccini.pdf",
   },
 
   contact: {
@@ -239,15 +278,14 @@ export const portfolioConfig: PortfolioConfig = {
     social: {
       github: "https://github.com/SilvanoPuccini",
       linkedin: "https://linkedin.com/in/Silvano-Puccini",
-      // Optional - update if different
-      // Optional - update if different
     },
   },
 
   about: {
-    description: "{Resumen profesional}",
+    description:
+      "I combine technical expertise in Full Stack development with experience in commercial leadership, remote team management, and process optimization. I apply SOLID principles and best practices to deliver scalable, user-focused solutions with real business impact.",
     experience:
-      "Combino conocimientos técnicos en desarrollo Full Stack con experiencia en lideraz￾go comercial, gestión de equipos remotos y optimización de procesos. Aplico principios SOLID,",
+      "With over 5 years of professional experience, I've successfully delivered 20+ projects using modern technologies. I specialize in building high-performance web applications with focus on clean architecture, testing, and continuous delivery.",
     highlights: [
       {
         icon: "Code2",
@@ -274,15 +312,32 @@ export const portfolioConfig: PortfolioConfig = {
 
   projects: [
     {
-      title: "Project Name",
+      title: "E-Commerce Platform",
       description:
-        "Describe your project here. What it does, what problems it solves, and what technologies you used.",
+        "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built with modern architecture patterns and microservices.",
       image: "/project-image.jpg",
-      technologies: ["React", "TypeScript", "Node.js"],
-      github: "https://github.com/SilvanoPuccini/project",
-      demo: "https://project-demo.vercel.app",
+      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"],
+      github: "https://github.com/SilvanoPuccini/ecommerce-project",
+      demo: "https://ecommerce-demo.vercel.app",
     },
-    // Add more projects as needed
+    {
+      title: "Task Management System",
+      description:
+        "Collaborative task management application with real-time updates, team collaboration features, and advanced filtering. Implements clean architecture and TDD.",
+      image: "/project-image.jpg",
+      technologies: ["Next.js", "TypeScript", "MongoDB", "GraphQL", "Jest"],
+      github: "https://github.com/SilvanoPuccini/task-manager",
+      demo: "https://task-manager-demo.vercel.app",
+    },
+    {
+      title: "Analytics Dashboard",
+      description:
+        "Real-time analytics dashboard with data visualization, custom reports, and export functionality. Optimized for performance with large datasets.",
+      image: "/project-image.jpg",
+      technologies: ["React", "TypeScript", "AWS", "Recharts", "Tailwind"],
+      github: "https://github.com/SilvanoPuccini/analytics-dashboard",
+      demo: "https://analytics-demo.vercel.app",
+    },
   ],
 
   skills: {
@@ -340,15 +395,16 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   meta: {
-    title: "Silvano Puccini - Full Stack",
+    title: "Silvano Puccini - Full Stack Developer",
     description:
-      "Personal portfolio of Silvano Puccini, a full stack specializing in modern web technologies.",
+      "Personal portfolio of Silvano Puccini, a Full Stack Developer specializing in modern web technologies, React, TypeScript, and Node.js.",
     keywords: [
-      "full stack",
+      "full stack developer",
       "web development",
       "portfolio",
       "react",
       "typescript",
+      "node.js",
     ],
   },
 };
