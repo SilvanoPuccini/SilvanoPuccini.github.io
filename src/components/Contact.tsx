@@ -31,12 +31,17 @@ export function Contact() {
     setIsSubmitting(true);
 
     try {
+      const form = new FormData();
+      form.append('name', formData.name);
+      form.append('email', formData.email);
+      form.append('message', formData.message);
+
       const response = await fetch('https://formspree.io/f/xvgvlzgk', {
         method: 'POST',
+        body: form,
         headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+          'Accept': 'application/json'
+        }
       });
 
       if (response.ok) {
