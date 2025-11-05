@@ -53,7 +53,7 @@ export function Contact() {
       icon: MapPin,
       label: t('contact.locationLabel'),
       value: contact.location,
-      href: null
+      href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contact.location)}`
     },
     {
       icon: Phone,
